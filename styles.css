@@ -166,3 +166,82 @@ header{
    position: absolute; 
 }
 
+#tablet{
+    padding: 0px 25px 40px;
+}
+
+#phone{
+    padding-bottom: 40px;
+}
+
+footer{
+    background: #4C4C4C;
+    box-shadow: 0px -5px 3px 0px rgba(0,0,0, 0.45);
+}
+
+.footer__grouped{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.footer__grouped img{
+    padding-right: 10px;
+}
+
+.footer__grouped h1{
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+
+@media (min-width: 1400px) {
+    header{
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-left: 140px;
+        margin-right: 148px;
+        margin-top: 26px;
+        position: absolute;
+        height: 85px;
+        width: -webkit-fill-available;
+    }
+
+    .header__logo{
+        width: unset;
+        background: unset;
+        height: unset;
+    }
+
+    .header__logo h1{
+        padding-left: 10px;
+        font-size: 40px;
+        font-weight: 500;
+        color: #fff;
+         font-style: italic;
+    }
+
+    .header__logo img{
+        width: unset;
+    }
+
+    .header__buttons{
+        width: 456px;
+        height: 42px;
+    }
+
+    .header__buttons button{
+        height: 42px;
+    }
+
+    .header__buttons button img{
+        padding-right: 5px;
+    }
+
+    #aboutUs{
+        width: 173px;
+    }
+
+    #services{
+        width: 135px;
+    }
+}
