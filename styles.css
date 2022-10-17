@@ -245,3 +245,141 @@ footer{
         width: 135px;
     }
 }
+
+#contact{
+    width: 148px;
+}
+
+.main__video-section{
+    background: no-repeat center url(assets/Layer20.png);
+    background-size: 100% 1136px;
+    height: 567px;
+}
+
+.main__video-section button img{
+    opacity: 0.8;
+}
+
+.main__video-section button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #C7A20B;
+    border: unset;
+     width: 32px;
+    cursor: pointer;
+    height: 58px;
+}
+
+.main__video-section button:hover{
+    background: #705a01;
+}
+
+#leftBTW{
+    position: relative;
+    top: 300px;
+}
+
+.main__video-section_video{
+    margin-top: 165px;
+    background: no-repeat url(assets/video1.svg);
+    margin-left: 150px;
+}
+
+
+.main__video-section_video video{
+    width: 550px;
+    height: 328px;
+}
+
+.main__video-section_right{
+    display: flex;
+}
+
+.main__video-section_right_text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 260px;
+    margin-right: 150px;
+}
+
+.main__video-section_right_text p{
+    font-size: 63px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+}
+
+#yellowtext{
+    color: #F7C107;
+}
+
+#rightBTW{
+    position: relative;
+    top: 300px;
+}
+
+.main__button-section{
+    height: 212px;
+}
+
+.main__button-section_button p{
+    font-size: 27px;
+}
+
+.main__info-section{
+    background: url(assets/yellowbg.svg);
+    height: 510px;
+}
+
+.main__info-section_text{
+    display: flex;
+    margin: 0 140px;
+    margin-top: 45px;
+    justify-content: space-between;
+}
+
+#title{
+    
+    color: white;
+    font-size: 37px;
+    font-weight: 400;
+    margin-bottom: 45px;
+    display: block;
+}
+
+.main__info-section_text_vidio-text{
+    width: 655px;
+    height: 235px;
+}
+
+.main__info-section_text_vidio-text_text{
+    width: 340px;
+    height: 235px;
+}
+
+.main__info-section_text_vidio-text_text p{
+    font-size: 25px;
+}
+
+.main__info-section_text_vidio-text_text img{
+    margin: 25px 30px;
+}
+
+.main__info-section_text_vidio-text_video{
+    width: 315px;
+}
+
+.main__info-section_text_twitter{
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 88px;
+    height: 235px;
+    width: 330px;
+    background: url(assets/twitter.svg);
+    display: flex;
+    
+}
+
