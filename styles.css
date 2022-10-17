@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+body{ 
+    margin: none;
+    border: none;
+}
+
+header{
+    display: flex;
+}
+
+.header__logo{
+    align-items: center;
+    display: flex;
+}
+
+.header__logo h1{
+    font-style: italic;
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+.header__buttons{
+    display: flex;
+    box-shadow: -5px -5px 0px 0px rgba(154,131,25, 0.6),
+                -10px -11px 0px 0px rgba(154,131,25, 0.45);
+}
+
+.header__buttons button{
+    font-weight: 700;
+    cursor: pointer;
+    background: #F6C506;
+    align-items: center;
+    justify-content: center;
+    border: unset;
+    display: flex;
+    color: #9E7D09;
+}
+
+.header__buttons button:hover{
+    background: #c49d03;
+    color: #503f01;
+}
